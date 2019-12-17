@@ -4,10 +4,10 @@
 
 // Replace the lat/long below with the lat/long for your desired location.
 // Get your city lat/long using https://www.latlong.net/
-var latlong = '41.740681,-71.308609';
+var latlong = '32.126607, -95.497895';
 
 // Your unique API key. Place the long string of characters between the quotes.
-var apikey = '';
+var apikey = 'x32.126607, -95.497895';
 
 // Access the DarkSky API for weather data. DO NOT EDIT THIS LINE.
 $.getJSON('https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/'+apikey+'/' + latlong)
