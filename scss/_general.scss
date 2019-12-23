@@ -1,0 +1,27 @@
+                                                       
+section {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 4fr, 1fr;
+  align-items: center;
+  justify-items:center;
+  height: 100vh;
+}
+
+
+
+.day01{
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  font-size: 4rem;
+}
+
+.day02{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.day03{
+  grid-column: 2;
+  grid-row: 3;
+}

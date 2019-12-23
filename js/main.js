@@ -7,7 +7,7 @@
 var latlong = '32.126607, -95.497895';
 
 // Your unique API key. Place the long string of characters between the quotes.
-var apikey = 'x32.126607, -95.497895';
+var apikey = '17c0e50f82ba7f0415d559d2015b604f';
 
 // Access the DarkSky API for weather data. DO NOT EDIT THIS LINE.
 $.getJSON('https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/'+apikey+'/' + latlong)
