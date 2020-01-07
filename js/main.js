@@ -34,7 +34,7 @@ $.getJSON('https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/
 	// Another way to remove the header is to provide a button and the event
 	// to trigger what happens when the button is clicked (uncomment to use)
 
-	// $('header').append('<a class="button" href="#">Click</a>');
+ $('header').append('<a class="button" href="#">Click</a>');
 	// $('header .button').click(function(){
 	//   $('header').hide();
 	// });
